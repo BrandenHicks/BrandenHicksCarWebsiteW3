@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Gugi'); 
+
+p.gugi { font-family: 'Gugi', cursive;
+
+}  
+
+div { margin:auto;  
+
+}  
+
+body {
+
+  background-image: url(../images/dealer%202.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+} 
+
+.w3-button { text-align: center; 
+
+} 

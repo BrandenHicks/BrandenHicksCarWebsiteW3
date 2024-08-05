@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, strong { text-align: center; 
+		 font-family: 'Orbitron', sans-serif; 
+		 color: white; 
+
+}  
+
+body { background-color: black; 
+} 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>Information</title>
+  <link href="style/special-style.css" rel="stylesheet" type="text/css">
+  </head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+  <body>
+   <!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right w3-red" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Home Page</a>
+  <a href="invetory.html" class="w3-bar-item w3-button ">Invetory</a>
+  <a href="info.html" class="w3-bar-item w3-button ">Dealership Info</a>
+  <a href="special.html" class="w3-bar-item w3-button ">Internet Special</a>
+  <a href="parts and services.html" class="w3-bar-item w3-button ">Parts and Services</a>
+  <a href="locations.html" class="w3-bar-item w3-button ">Locations</a>
+  </div> 
+  
+  <!-- Page Content -->
+<div class="w3-blue">
+  <button class="w3-button w3-blue w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>Lerroy's Kartz</h1>
+  </div>
+</div> 
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script> 
+  <div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/mario kart.jpg" alt="Mario Kart" style="width:100%">
+    <div class="w3-display-middle w3-center w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">2006 Mario Kart V-8 $13,000</button>
+   </div> 
+    <div class="w3-card-4" style="width:90%;">
+    <header class="w3-container w3-blue">
+      <h1>Our Memorial Day Special!</h1>
+      </header> 
+      <div class="w3-container">
+      <p>Enter in your first and last name, email adress, and home adress and we'll send you a voucher for 40% off the 2006 Mario Kart V-8!</p>
+    </div>
+    <p>      
+    <label class="w3-text-blue"><b>First Name</b></label>
+    <input class="w3-input w3-border w3-sand" name="first" type="text"></p>
+    <p>      
+    <label class="w3-text-blue"><b>Last Name</b></label>
+    <input class="w3-input w3-border w3-sand" name="last" type="text"></p> 
+    <label class="w3-text-blue"><b>Email Address</b></label>
+    <input class="w3-input w3-border w3-sand" name="last" type="text"></p> 
+    <label class="w3-text-blue"><b>Street Address</b></label>
+    <input class="w3-input w3-border w3-sand" name="last" type="text"></p> 
+    <p> 
+    <button class="w3-btn w3-blue">Register</button></p>
+</div>  
+  </body> 
+  </html>  

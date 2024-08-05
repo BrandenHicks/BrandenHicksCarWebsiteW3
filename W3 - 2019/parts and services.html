@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Parts and Services</title>
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+  <link href="style/parts and services-style.css" rel="stylesheet" type="text/css">
+</head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right w3-red" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Home Page</a>
+  <a href="invetory.html" class="w3-bar-item w3-button ">Invetory</a>
+  <a href="info.html" class="w3-bar-item w3-button ">Dealership Info</a>
+  <a href="special.html" class="w3-bar-item w3-button ">Internet Special</a>
+  <a href="parts and services.html" class="w3-bar-item w3-button ">Parts and Services</a>
+  <a href="locations.html" class="w3-bar-item w3-button ">Locations</a>
+  </div> 
+  
+  <!-- Page Content -->
+<div class="w3-blue">
+  <button class="w3-button w3-blue w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>Lerroy's Kartz</h1>
+  </div>
+</div> 
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+} 
+
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  document.getElementById(cityName).style.display = "block"; 
+}
+</script>  
+
+<h1><strong>Phone Number: (239)-4xx-978x</strong></h1> 
+<h2><strong>Service Hours</strong></h2> 
+<h2><strong>Mon - Fri: 10 AM to 7 PM</strong></h2> 
+<h2><strong>Sat: 12 PM to 5PM</strong></h2> 
+<h2><strong>Sun: Closed</strong></h2> 
+<br><br><br><br> 
+<div class="w3-left-align"><h2><strong>Services</strong></h2> 
+<h3><strong>Oil Checks</strong></h3> 
+<h3><strong>Brake Inspections</strong></h3> 
+<h3><strong>Tire Checks</strong></h3> 
+<h3><strong>Paint Jobs</strong></h3> 
+<h3><strong>AC Services</strong></h3> 
+<br><br><br><br> 
+<div class="w3-right-align"><h2><strong>Parts</strong></h2>
+<h3><strong>V-8 Ultra Transmissions - 400$</strong></h3> 
+<h3><strong>BulletProof Tires - 150$ per tire</strong></h3> 
+<h3><strong>Truck Engine - 300$</strong></h3> 
+<h3><strong>Utilery (Bat Mobile) - 2000$</strong></h3> 
+<h3><strong>Fridge Installation - 600$</strong></h3> 
+</div>  
+  </body>
+  </html> 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>Invetory</title>
+
+  <link href="style/style-invetory.css" rel="stylesheet" type="text/css">
+  </head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+  <!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right w3-red" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+   <a href="index.html" class="w3-bar-item w3-button">Home Page</a>
+  <a href="invetory.html" class="w3-bar-item w3-button ">Invetory</a>
+  <a href="info.html" class="w3-bar-item w3-button ">Dealership Info</a>
+  <a href="special.html" class="w3-bar-item w3-button ">Internet Special</a>
+  <a href="parts and services.html" class="w3-bar-item w3-button ">Parts and Services</a>
+  <a href="locations.html" class="w3-bar-item w3-button ">Locations</a>
+  </div> 
+  
+  <!-- Page Content -->
+<div class="w3-blue">
+  <button class="w3-button w3-blue w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>Lerroy's Kartz</h1>
+  </div>
+</div> 
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script> 
+<div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/mario kart.jpg" alt="Mario Kart" style="width:100%">
+    <div class="w3-display-middle w3-center w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">2006 Mario Kart V-8 $13,000</button></div>
+<div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/Mystery-Machine.jpg" alt="Mystery Machine" style="width:100%">
+    <div class="w3-display-middle w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">1963 Mystery Machine $4,000</button></div> 
+<div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/batmobile (c) nick traveller_451x338.jpg" alt="Bat Mobile" style="width:100%">
+    <div class="w3-display-middle w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">2009 Bat Mobile Ver.3 $24,000</button></div>   
+ <div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/'Dumb and Dumber'.jfif" alt="Mutz Cutz Van" style="width:100%">
+    <div class="w3-display-middle w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">1994 Mutts Cutts Van $8,000</button></div>   
+<div class="w3-panel w3-center w3-hover-opacity" style="width:50%">
+    <img src="images/franklins car.jpg" alt="GTA V Franklin's Buffalo S" style="width:100%">
+    <div class="w3-display-middle w3-display-hover w3-xlarge"></div>
+      <button class="w3-button w3-black">2013 Buffalo S $15,000</button></div> 
+             
+</body> 
+</html> 
